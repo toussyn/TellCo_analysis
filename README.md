@@ -79,10 +79,3 @@ git clone https://github.com/toussyn/TellCo_analysis
 cd TellCo_analysis
 pip install -r requirements.txt 
 ```
-Option 2
-```
-git clone https://github.com/toussyn/TellCo_analysis
-cd TellCo_analysis
-pip install .
-```
-
