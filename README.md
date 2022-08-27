@@ -6,8 +6,8 @@
 
 - [TellCo Analysis](#TellCo_Analysis)
   - [Overview](#overview)
-  - [Business Need (Scenario)](#Business Need (Scenario))
-  - [The Approach](#the approach)
+  - [Business Need - The Scenario](#Business-Need---The-Scenario)
+  - [The Approach](#theapproach)
   - [Repo Structure](#project-structure)
     - [.github](#.github)
     - [dashboard](#dashboard)
@@ -24,7 +24,7 @@
 ## Overview
 In this repository contains detailed analytics and modeling of telecomunications dataset of a company called TellCo. This project is part of 10 academy's training week 1 challenge. The project's objective is to analyze opportunities for growth and make a recommendation on whether TellCo is worth buying or not.
 
-## Business Need (Scenario)
+## Business Need - The Scenario
 You are working for a wealthy investor that specializes in purchasing assets that are undervalued. The investor is interested in purchasing TellCo, an existing mobile service provider in the Republic of Pefkakia. You will analyze a telecommunication dataset that contains useful information about the customers & their activities on the network. Your job is to perform detailed analysis to understand the fundamentals of the business and especially to identify opportunities to drive profitability by changing the focus of which products or services are being offered.
 
 ## The Approach
