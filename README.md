@@ -4,7 +4,7 @@
 
 **Table of Contents**
 
-- [TellCo-Data-Analysis](#TellCo-Data-Analysis)
+- [TellCo Analysis](#TellCo_Analysis)
   - [Overview](#overview)
   - [Scenario](#scenario)
   - [Approach](#approach)
@@ -40,31 +40,31 @@ The repository has a number of files and folders that houses python scripts, jup
 
 ## Folders
 
-# .github
+### .github
 - a configuration file for github actions and workflow
 - `workflows/CI.yml` continous integration configuration
 
-# dashboard
+### dashboard
 - the folder where all the multiple dashboard pages belong
 - `UserEngagement.py` dashboard page for presenting the findings in `User Engagement Analysis.ipynb`
 - `UserExperience.py` dashboard page for presenting the findings in `User Experience analysis.ipynb`
 - `UserOverview.py` dashboard page for presenting the findings in `User Overview analysis.ipynb`
 - `UserSatisfaction.py` dashboard page for presenting the findings in `User Engagement Analysis.ipynb`
 
-# data
+### data
 - the folder where the raw, and cleaned datasets' csv files are stored
 
-# models
+### models
 - the folder where models' pickle files are stored
 
-# notebooks
+### notebooks
 - `Data Cleaning, Transforming and Extraction.ipynb`: a jupyter notebook that handles data cleaning tranformation and extraction
 - `User Overview analysis.ipynb`: a jupyter notebook that analyzes general users' behaviours
 - `User Engagement analysis.ipynb`: a jupyter notebook that analyzes the engagement of users
 - `User Experience analysis.ipynb`: a jupyter notebook that analyzes users' network experience
 - `User Satisfaction analysis.ipynb`: a jupyter notebook that analyzes the satisfaction of users
 
-# scripts
+### scripts
 - `clean_dataframe.py`: a python script for cleaning pandas dataframes
 - `plot_dataframe.py`: a python script for plotting selected data
 - `utils.py`: a python script for cleaning outliers in a pandas dataframe
