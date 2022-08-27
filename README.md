@@ -58,17 +58,14 @@ The repository has a number of files and folders that houses python scripts, jup
 - the folder where models' pickle files are stored
 
 #### notebooks
-- `Data Cleaning, Transforming and Extraction.ipynb`: a jupyter notebook that handles data cleaning tranformation and extraction
-- `User Overview analysis.ipynb`: a jupyter notebook that analyzes general users' behaviours
-- `User Engagement analysis.ipynb`: a jupyter notebook that analyzes the engagement of users
-- `User Experience analysis.ipynb`: a jupyter notebook that analyzes users' network experience
-- `User Satisfaction analysis.ipynb`: a jupyter notebook that analyzes the satisfaction of users
+- `data_cleaning.ipynb`: a jupyter notebook that handles data cleaning tranformation and extraction
+- `satisfaction_nalysis.ipynb`: a jupyter notebook that analyzes general users' behaviours
+- `user_engagement_analysis.ipynb`: a jupyter notebook that analyzes the engagement of users
+- `user_overview_analysis.ipynb`: a jupyter notebook that analyzes users' network experience
+- `user_experience_analysis.ipynb`: a jupyter notebook that analyzes the satisfaction of users
 
 #### scripts
-- `clean_dataframe.py`: a python script for cleaning pandas dataframes
-- `plot_dataframe.py`: a python script for plotting selected data
-- `utils.py`: a python script for cleaning outliers in a pandas dataframe
-- `logger.py`: a python script used for writing logs to corresponding log files
+- `dataframe_cleaner.py`: a python script for cleaning pandas dataframes
 
 ### Files
 - `requirements.txt`: a text file lsiting the projet's dependancies
@@ -78,14 +75,14 @@ The repository has a number of files and folders that houses python scripts, jup
 ## Installation guide
 Option 1
 ```
-git clone https://github.com/natyrix/Telecommunication-Industry-User-Analytics
-cd Telecommunication-Industry-User-Analytics
+git clone https://github.com/toussyn/TellCo_analysis
+cd TellCo_analysis
 pip install -r requirements.txt 
 ```
 Option 2
 ```
-git clone https://github.com/natyrix/Telecommunication-Industry-User-Analytics
-cd Telecommunication-Industry-User-Analytics
+git clone https://github.com/toussyn/TellCo_analysis
+cd TellCo_analysis
 pip install .
 ```
 
