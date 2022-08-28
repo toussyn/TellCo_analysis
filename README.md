@@ -46,10 +46,7 @@ The repository has a number of files and folders that houses python scripts, jup
 
 #### dashboard
 - the folder where all the multiple dashboard pages belong
-- `UserEngagement.py` dashboard page for presenting the findings in `User Engagement Analysis.ipynb`
-- `UserExperience.py` dashboard page for presenting the findings in `User Experience analysis.ipynb`
-- `UserOverview.py` dashboard page for presenting the findings in `User Overview analysis.ipynb`
-- `UserSatisfaction.py` dashboard page for presenting the findings in `User Engagement Analysis.ipynb`
+- `dashboard.py` dashboard page for presenting the findings in `user_overview_analysis.ipynb`
 
 #### data
 - the folder where the raw, and cleaned datasets' csv files are stored
@@ -65,7 +62,7 @@ The repository has a number of files and folders that houses python scripts, jup
 - `user_experience_analysis.ipynb`: a jupyter notebook that analyzes the satisfaction of users
 
 #### scripts
-- `dataframe_cleaner.py`: a python script for cleaning pandas dataframes
+- `dataframe_cleaner.py`: a python script for cleaning pandas dataframes.
 
 ### Files
 - `requirements.txt`: a text file lsiting the projet's dependancies
