@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-def percent_missing(self, datf):
+def percent_missing(datf):
 
     # Calculate total number of cells in dataframe
     total_cells = np.product(datf.shape)
@@ -12,7 +12,7 @@ def percent_missing(self, datf):
     # Calculate percentage of missing values
     return ("The Diabetes dataset contains", round(((total_missing/total_cells) * 100), 2), "%", "missing values.")
 
-def percent_missing_values(self, datf):
+def percent_missing_values(datf):
         
     #Get Missing value percentage of columns
     percent_missing = datf.isnull().sum() * 100 / len(df)
