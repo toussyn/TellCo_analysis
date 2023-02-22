@@ -4,6 +4,8 @@ import numpy as np
 import sys, os
 import plotly.express as px
 
+# streamlit
+
 #@st.cache()
 def load_data():
     clean_data_df = pd.read_csv("/Users/macbook/MY_PROJECTS/TellCo_analysis/data/clean_df.csv")
