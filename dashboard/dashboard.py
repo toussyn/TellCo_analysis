@@ -4,7 +4,7 @@ import numpy as np
 import sys, os
 import plotly.express as px
 
-# streamlit
+# streamlit and strrrrrr
 
 #@st.cache()
 def load_data():
